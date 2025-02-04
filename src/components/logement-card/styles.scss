@@ -1,0 +1,28 @@
+.logementCardContainer {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.logementCardContent {
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.gradientHover {
+    height: 340px;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(transparent,transparent, black);
+    display: flex;
+    align-items: flex-end;
+}
+
+.titleContainer {
+    width: 40%;
+    text-align: start;
+}
