@@ -2,15 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  margin: 50px;
 }
 
 .logementInfoContainer {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  margin: 50px;
 }
 
 .logementTitle {
+  font-family: Montserrat;
   font-size: 36px;
   color: #ff6060;
   margin: 0;

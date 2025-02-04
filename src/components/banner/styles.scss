@@ -4,6 +4,7 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    margin: 50px;
 }
 
 .bannerHover {
@@ -16,4 +17,8 @@
     align-items: center;
     font-size: 48px;
     font-weight: 700;
+}
+@media (max-width: 768px) {
+
+
 }

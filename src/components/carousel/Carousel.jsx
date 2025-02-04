@@ -20,24 +20,25 @@ const Carousel = ({ logement }) => {
     setIndex(newIndex);
   };
   return (
-    <div className="carouselImageContainer">
-      <img className="carouselImage" src={logement.pictures[index]} />
-      {logement.pictures.length > 1 && (
-        <>
-          <div className="carouselCounter">
-            {index + 1}/{logement.pictures.length}
-          </div>
-          <i
-            class="fa-solid fa-chevron-left carouselPreviousButton "
-            onClick={previousImage}
-          ></i>
-          <i
-            class="fa-solid fa-chevron-right carouselNextButton"
-            onClick={nextImage}
-          ></i>
-        </>
-      )}
-    </div>
+      <div className="carouselImageContainer">
+        <img className="carouselImage" src={logement.pictures[index]} />
+        {logement.pictures.length > 1 && (
+          <>
+            <div className="carouselCounter">
+              {index + 1}/{logement.pictures.length}
+            </div>
+            <i
+              class="fa-solid fa-chevron-left carouselPreviousButton "
+              onClick={previousImage}
+            ></i>
+            <i
+              class="fa-solid fa-chevron-right carouselNextButton"
+              onClick={nextImage}
+            ></i>
+          </>
+        )}
+      </div>
+   
   );
 };
 
