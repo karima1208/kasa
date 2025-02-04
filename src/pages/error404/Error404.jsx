@@ -6,11 +6,10 @@ const Error404 = () => {
   return (
   <div>
    <h1 className="error">404</h1>
-   <p className="error-message">Oups! La page que vous demandez n'existe pas.</p>
+   <p className="error-message">Oups! La page que vous demandez n'existe pas</p>
   
-   <nav className='retourAccueil'>
-      <Link to="/home">Retourner sur la page d accueil</Link>
-   </nav>
+      <Link to="/" className='back-home'>Retourner sur la page d accueil</Link>
+ 
   </div>
   )
 }
