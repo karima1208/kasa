@@ -65,3 +65,58 @@
 .ratingContainer {
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .logementInfoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+  }
+  .logementTitle {
+    font-size: 18px;
+    text-align: left;
+  }
+  .logementLocation {
+    font-size: 14px;
+  }
+  .tag {
+    font-size: 10px;
+  }
+  .ratingHostcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    align-items: center;
+
+    .logementHostName {
+      font-size: 12px;
+    }
+    .logementHostPicture {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .fullStar {
+    font-size: 14px;
+  }
+  .ratingContainer {
+    margin-top: 0;
+  }
+  .logementCollapseContainer {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .logementCollapse {
+    width: 100%;
+  }
+  .ratingHostcontainer {
+    
+
+  }
+  .logementHostContainer {
+    text-align: right;
+  }
+
+}

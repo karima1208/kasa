@@ -2,8 +2,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0%;
+  padding: 0%;
+
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -30,6 +31,7 @@ body {
   background-color: white;
   color: black;
   text-align: start;
+  margin: 0%;
 }
 
 h1 {

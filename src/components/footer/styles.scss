@@ -9,11 +9,20 @@ footer {
     padding: 0px;
 }
 .footer-logo{
-    margin-top: 80px;
+    margin-top: 60px;
+
 }
 .textfooter{
     font-family: Montserrat;
     font-size: 24px;
     text-align: center;
 
+}
+
+@media (max-width: 768px){
+    .textfooter{
+        max-width: 100px;
+        font-size: 12px;
+      margin-left: 38%;
+    }
 }

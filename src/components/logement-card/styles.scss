@@ -26,4 +26,28 @@
 .titleContainer {
     width: 40%;
     text-align: start;
+
 }
+
+@media (max-width: 768px){
+    .logementCardContainer {
+        width: 100%;
+        margin-right: 15px;
+
+       
+    }
+    .logementCardContent {
+        width: 100%;
+        height: 255px;
+        margin: 0px 0px;
+        margin-bottom: 5px;
+    }
+    .gradientHover {
+        height: 250px;
+        width: 100%;
+    }
+    .titleContainer {
+      margin-bottom: 20px;
+    }
+} 
+

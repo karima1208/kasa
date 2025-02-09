@@ -43,3 +43,18 @@
   transform: rotate(0deg);
   transition: 0.5s;
 }
+
+
+@media (max-width: 768px){
+.collapse{
+  height: 15px;
+ 
+}
+.collapseContent {
+  font-size: 13px;
+}
+.textOpen {
+  margin-top: 0%;
+}
+}
+

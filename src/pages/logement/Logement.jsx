@@ -36,7 +36,8 @@ const Logement = () => {
             ))}
           </div>
         </div>
-        <div>
+
+        <div className="ratingHostcontainer">
           <div className="logementHostContainer">
             <div className="logementHostName">
               <div>{logement.host.name.split(" ")[0]}</div>

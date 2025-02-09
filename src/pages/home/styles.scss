@@ -2,7 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #F6F6F6;
+
+    width: 90%;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 10px;
     margin: 50px;
+}
+
+@media (max-width: 768px){
+    .logementsContainer {
+        width: 100%;
+        padding: 0px;
+        margin-left: 10px;
+        background-color: white;
+        margin-top: 10px;
+    }
+
 }

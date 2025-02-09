@@ -25,7 +25,8 @@
   z-index: 10;
   right: 20px;
   color: white;
- font-size: 80px;
+  font-size: 80px;
+
 
 }
 
@@ -35,4 +36,25 @@
   left: 20px;
   color: white;
   font-size: 80px;
+}
+@media (max-width: 768px){
+.carouselImageContainer {
+  margin: 10px;
+  
+
+}
+.carouselImage {
+height: 255px;
+border-radius: 10px;
+
+}
+.carouselPreviousButton {
+font-size: 30px;
+}
+.carouselNextButton {
+font-size: 30px;
+}
+.carouselCounter {
+opacity: 0;
+}
 }

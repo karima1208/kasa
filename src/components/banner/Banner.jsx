@@ -3,7 +3,11 @@ import "./styles.scss"
 
 const Banner = ({bgImage, text}) => {
   return (
-    <div className='banner' style={{backgroundImage:`url(${bgImage})`}}><div className='bannerHover'>{text}</div></div>
+
+    <div className='banner' style={{backgroundImage:`url(${bgImage})`}}>
+       <div className='bannerOverlay'></div>
+      <div className='bannerText'>{text}</div>
+    </div>
   )
 }
 

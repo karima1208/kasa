@@ -2,12 +2,14 @@ header {
     color: black;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-    margin-top: 30px;
+
+    margin: 30px;
 }
 .headerlink{
 font-family: Montserrat;
- margin-right: 30px;
+ 
+ margin-top: 10px;
+
 }
 .headerlink a{
     font-family: Montserrat;
@@ -24,5 +26,24 @@ font-family: Montserrat;
     text-decoration-line: underline;
 }
 .image{
-    margin-left: 50px;
+    
 }
+
+@media (max-width: 768px){
+    .image{
+        width: 145px;
+        height: 46.88px;
+
+    }
+    .headerlink a{
+        margin-right: 0px;
+        font-size: 12px;
+        margin-left: 20px;
+
+    }
+    .header {
+        margin: 10px;
+       
+    }
+  }
+

@@ -1,4 +1,5 @@
 .banner {
+    position: relative;
     height: 223px;
     border-radius: 25px;
     background-position: center;
@@ -7,18 +8,41 @@
     margin: 50px;
 }
 
-.bannerHover {
+.bannerOverlay {
+    position: absolute;
     background-color: rgba(0,0,0,0.6);
     height: 100%;
     width: 100%;
+}
+.bannerText{
+    position: relative;
+    font-family: Montserrat;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: 6%;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bold;
+    z-index: 1;
+
 }
 @media (max-width: 768px) {
+.bannerText{
+    font-size: 24px;
+    text-align: left; // Aligne le texte à gauche
+    max-width: 58%;
+    margin-left: 10px;
+    line-height: 1.2;  /* Ajuste l'espace entre les lignes */
 
+}
+.banner{
+    position: relative;
+    width: 93%;
+    height: 111px;
+    border-radius: 10px;
+    margin: 15px;
+   }
 
 }
