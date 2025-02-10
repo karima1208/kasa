@@ -14,7 +14,7 @@
 
 .logementTitle {
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 38px;
   color: #ff6060;
   margin: 0;
 }
@@ -96,6 +96,7 @@
     .logementHostPicture {
       width: 32px;
       height: 32px;
+      
     }
   }
   .fullStar {
@@ -103,6 +104,7 @@
   }
   .ratingContainer {
     margin-top: 0;
+
   }
   .logementCollapseContainer {
     flex-direction: column;
@@ -110,10 +112,6 @@
   }
   .logementCollapse {
     width: 100%;
-  }
-  .ratingHostcontainer {
-    
-
   }
   .logementHostContainer {
     text-align: right;
