@@ -28,11 +28,11 @@ const Carousel = ({ logement }) => {
               {index + 1}/{logement.pictures.length}
             </div>
             <i
-              class="fa-solid fa-chevron-left carouselPreviousButton "
+              className="fa-solid fa-chevron-left carouselPreviousButton "
               onClick={previousImage}
             ></i>
             <i
-              class="fa-solid fa-chevron-right carouselNextButton"
+              className="fa-solid fa-chevron-right carouselNextButton"
               onClick={nextImage}
             ></i>
           </>

@@ -18,9 +18,9 @@ const Rating = ({ rating }) => {
       <div>
         {stars.map((star, i) =>
           star === "active" ? (
-            <i class="fa-solid fa-star fullStar" key={i}></i>
+            <i className="fa-solid fa-star fullStar" key={i}></i>
           ) : (
-            <i class="fa-solid fa-star emptyStar" key={i}></i>
+            <i className="fa-solid fa-star emptyStar" key={i}></i>
           )
         )}
       </div>

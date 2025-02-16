@@ -10,8 +10,8 @@ const AboutUs = () => {
     <div>
       <Banner bgImage={BannerImage} text="" />
       <div className="collapseContainer">
-        {aboutList.map((about) => (
-          <Collapse item={about}/>
+        {aboutList.map((about, index) => (
+          <Collapse key={index} item={about}/>
         ))}
       </div>
     </div>

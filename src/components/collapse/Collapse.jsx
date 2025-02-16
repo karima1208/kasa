@@ -8,7 +8,7 @@ const Collapse = ({ item }) => {
       <div className="collapse" onClick={() => setIsCollapsed(!isCollapsed)}>
         {item.title}
         <i
-          class={`fa-solid fa-chevron-up ${
+          className={`fa-solid fa-chevron-up ${
             isCollapsed ? "rotateBottom" : "rotateTop"
           }`}
         ></i>
@@ -16,8 +16,8 @@ const Collapse = ({ item }) => {
       <div className={isCollapsed ? "textOpen" : "textClose"}>
         {Array.isArray(item.content) ? (
           <ul>
-            {item.content.map((eqt) => (
-              <li>{eqt}</li>
+            {item.content.map((eqt, index) => (
+              <li key={index}>{eqt}</li>
             ))}
           </ul>
         ) : (
